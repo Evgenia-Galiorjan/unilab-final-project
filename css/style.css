@@ -13,7 +13,9 @@ header {
     margin: auto;
     align-items: center;
 }
-
+.common{
+    margin:0, auto;
+}
 
 /* this is for icons logo and header */
 
@@ -256,7 +258,7 @@ nav .navCenter ul li:hover a {
 }
 
 .box {
-    width: 300px;
+    width: 320px;
     height: 400px;
     margin: 10px;
     text-align: center;
@@ -869,7 +871,7 @@ tr td {
 }
 
 .box-question {
-    width: 600px;
+    width: 80%;
     margin: 100px auto;
     background: #fff;
     border-radius: 7px;
