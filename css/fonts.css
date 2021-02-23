@@ -1,24 +1,10 @@
-font-face {
-    font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-Italic.eot');
-    src: url('Newsreader6pt-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-Italic.woff2') format('woff2'),
-        url('Newsreader6pt-Italic.woff') format('woff'),
-        url('Newsreader6pt-Italic.ttf') format('truetype'),
-        url('Newsreader6pt-Italic.svg#Newsreader6pt-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
 @font-face {
     font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-Bold.eot');
-    src: url('Newsreader6pt-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-Bold.woff2') format('woff2'),
-        url('Newsreader6pt-Bold.woff') format('woff'),
-        url('Newsreader6pt-Bold.ttf') format('truetype'),
-        url('Newsreader6pt-Bold.svg#Newsreader6pt-Bold') format('svg');
+    src: url('/fonts/Newsreader6pt-Bold.woff');
+    src: url('/fonts/Newsreader6pt-Bold.woff2') format('embedded-opentype'),
+        url('/fonts/Newsreader6pt-Bold.ttf') format('woff2'),
+        url('/fonts/Newsreader6pt-Bold.svg') format('woff'),
+        url('/fonts/Newsreader6pt-Bold.eot') format('truetype'),;
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -26,25 +12,12 @@ font-face {
 
 @font-face {
     font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-Medium.eot');
-    src: url('Newsreader6pt-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-Medium.woff2') format('woff2'),
-        url('Newsreader6pt-Medium.woff') format('woff'),
-        url('Newsreader6pt-Medium.ttf') format('truetype'),
-        url('Newsreader6pt-Medium.svg#Newsreader6pt-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-Regular.eot');
-    src: url('Newsreader6pt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-Regular.woff2') format('woff2'),
-        url('Newsreader6pt-Regular.woff') format('woff'),
-        url('Newsreader6pt-Regular.ttf') format('truetype'),
-        url('Newsreader6pt-Regular.svg#Newsreader6pt-Regular') format('svg');
+    src: url('/fonts/Newsreader6pt-Regular.eot');
+    src: url('/fonts/Newsreader6pt-Regular.svg') format('embedded-opentype'),
+        url('/fonts/Newsreader6pt-Regular.ttf') format('woff2'),
+        url('/fonts/Newsreader6pt-Regular.woff') format('woff'),
+        url('/fonts/Newsreader6pt-Regular.woff2') format('truetype'),
+        url('/fonts/Newsreader6pt-Regular.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -52,26 +25,14 @@ font-face {
 
 @font-face {
     font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-Light.eot');
-    src: url('Newsreader6pt-Light.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-Light.woff2') format('woff2'),
-        url('Newsreader6pt-Light.woff') format('woff'),
-        url('Newsreader6pt-Light.ttf') format('truetype'),
-        url('Newsreader6pt-Light.svg#Newsreader6pt-Light') format('svg');
+    src: url('/fonts/Newsreader6pt-Light.eot');
+    src: url('/fonts/Newsreader6pt-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Newsreader6pt-Light.woff2') format('woff2'),
+        url('/fonts/Newsreader6pt-Light.woff') format('woff'),
+        url('/fonts/Newsreader6pt-Light.ttf') format('truetype'),
+        url('/fonts/Newsreader6pt-Light.svg#Newsreader6pt-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Newsreader 6pt';
-    src: url('Newsreader6pt-ExtraLight.eot');
-    src: url('Newsreader6pt-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('Newsreader6pt-ExtraLight.woff2') format('woff2'),
-        url('Newsreader6pt-ExtraLight.woff') format('woff'),
-        url('Newsreader6pt-ExtraLight.ttf') format('truetype'),
-        url('Newsreader6pt-ExtraLight.svg#Newsreader6pt-ExtraLight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
