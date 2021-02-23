@@ -925,14 +925,9 @@ footer .copyRightCont p {
   color: hsl(233, 100%, 98%);
 }
  
-
-
-
-
     
 @media (max-width: 960px) {
     	.container {
-		flex-direction: column;
         max-width: 900px;
         margin:0 auto;
 	}
@@ -962,13 +957,20 @@ display:none;
         display:flex;
     }
     .nav-links{
-        display:none;
+        display:flex;
     }
-.servises{
-    max-width:600px;
-}        
-.main-box{
-    display: flex;
+    .contact-me{
+display: none;    }
+  }
+  .contact-box{
+    display: initial;
+  }
+  .contact-left{
+    width: 900px;
+  }
+.contact-button a{
+  align-items: center;
 }
-    }
-} 
+.contact-right{
+  align-items: center;
+}
