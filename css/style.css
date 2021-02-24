@@ -928,23 +928,21 @@ footer .copyRightCont p {
     
 @media (max-width: 960px) {
     	.container {
-        max-width: 900px;
-        margin:0 auto;
+        max-width: 800px;
 	}
-	.introduction {
+  .introduction {
+		margin-top: 5vh;
 		text-align: center;
 	}
 	.intro-text h1 {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.intro-text p {
-		font-size: 30px;
-        display: flex;
+		font-size: 18px;
 	}
 	.section-button {
 		padding: 10px 0px 0px 0px;
 	}
-	
 	.cover img {
 display:none;
 	}
@@ -954,23 +952,42 @@ display:none;
 		opacity: 0.2;
 	}
     .about{
-        display:flex;
+        display:none;
     }
     .nav-links{
-        display:flex;
+      display: flex;
+        font-size: 20px;
     }
-    .contact-me{
-display: none;    }
-  }
-  .contact-box{
-    display: initial;
-  }
-  .contact-left{
-    width: 900px;
-  }
-.contact-button a{
-  align-items: center;
+    .nav-link{
+      font-size:10px;
+    }
+.main-box{
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
 }
-.contact-right{
-  align-items: center;
+.articles__container{
+  width:100%;
+  max-width: 800px;
+}
+.infoCont{
+font-size: 10px;
+}
+.copyRightCont{
+  font-size:8px;
+  margin-right:30px;
+}
+.image2{
+  width:40%
+}
+.image3{
+  display: none;
+}
+.ct-socials{
+display: none;
+}
+}
+@media (max-width: 650px) {
+
 }
