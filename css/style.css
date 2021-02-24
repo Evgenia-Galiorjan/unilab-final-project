@@ -4,7 +4,7 @@ body {
 
 header {
   display: flex;
-  width: 90%;
+  width: 100%;
   height: 10vh;
   margin: auto;
   align-items: center;
@@ -33,6 +33,7 @@ header {
 .nav-links,
 .icon-container {
   display: flex;
+  margin-left:30px;
 }
 
 .logo-container {
@@ -119,6 +120,7 @@ nav .navCenter ul li:hover a {
 }
 .introduction {
   flex: 1;
+  margin-left:20px;
 }
 
 .intro-text h1 {
@@ -333,12 +335,12 @@ margin-left:20px;
   box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.08);
 }
 .servise-box:first-child{
-  margin-left:0 auto;
-  margin-right:10px;
+  margin-left:0;
+  margin-right:20px;
 }
 .servise-box:last-child{
-  margin-right: 0;
-  margin-left: 10px;
+  margin-left:20px;
+  margin-right:0;
 }
 .servise-box img {
   width: 90px;
@@ -432,25 +434,19 @@ hr {
 }
 
 .client-box {
-  width: 350px;
+  width: 310px;
   height: 350px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 10px;
+  margin: 20px;
   box-shadow: 5px 15px 30px rgba(0, 0, 0, 0.08);
 }
-.client-box:first-child{
-  margin-left:0 auto;
-  margin-right:20px;
-}
-.client-box:last-child{
-  margin-right: 0;
-  margin-left: 20px;
-}
+
 .client-box img {
   width: 90px;
   height: 90px;
@@ -485,7 +481,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
+  color: #FFFFFF;
   background-color: #89be9b;
   border-radius: 20px;
   box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
@@ -625,6 +621,7 @@ hr {
   border-radius: 10px;
   font-size: 14px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 a {
@@ -766,7 +763,6 @@ a {
 /* this is contact form */
 
 .contact-container {
-  width:100%;
   max-width: 1100px;
   margin: 0 auto;
   background: white;
@@ -793,6 +789,7 @@ a {
   text-align: center;
   color: rgb(61, 60, 60);
   font-size: 40px;
+  margin-top:20px;
 }
 
 .input-row {
@@ -864,7 +861,7 @@ tr td {
 
 /* this is for questions */
 .box-question {
-  width: 90%;
+  width: 95%;
   margin: 100px auto;
   background: #fff;
   border-radius: 7px;
