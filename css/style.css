@@ -1058,6 +1058,9 @@ margin-top: 280px;
   font-size:14px;
   padding: 10px;
 }
+.cover img {
+  width: 60%;
+}
 }
 @media (max-width: 840px) {
   .nav-link{
@@ -1144,22 +1147,23 @@ display: none;
 }
 
 }
-@media (max-width: 640px) {
+@media (max-width: 660px) {
 .cover img{
   display: none;
 }
 .logo-container{
-margin-left:150px;
+margin-left:156px;
 opacity: 50%;
 }
 .introduction {
 margin-left:150px;
 }
 .intro-text h1 {
-  font-size: 30px;
+  font-size: 60px;
 }
 .intro-text p {
-  font-size: 18px;
+  font-size: 28px;
+  text-align:center;
 }
 .section-button {
   padding: 10px 10px 10px 10px;
@@ -1178,8 +1182,7 @@ max-width: 40%;
   font-size: 2.25rem;
   margin-top:5px;
 }
-}
-@media (max-width: 640px) {
+
 .choosePara {
   display: none;
 }
@@ -1198,6 +1201,7 @@ max-width: 40%;
 .articles__grid{
   flex-direction: column;
   align-items: center;
+  width: 600px;
 }
 .box-question{
   width:80%
@@ -1211,3 +1215,14 @@ max-width: 40%;
 .contact-left{
 width:400px}
 }
+.stadistic figure {
+  width: 40%;
+  }
+  .stadistic img {
+  max-width: 60%;
+  }
+  .stadistic-number {
+    font-weight: 200;
+    font-size: 2.25rem;
+    margin-top:5px;
+  }
