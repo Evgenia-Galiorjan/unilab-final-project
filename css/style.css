@@ -150,7 +150,17 @@ nav {
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
 }
+.mobile {
+  flex: 1;
+  display: none;
+  justify-content: center;
+  height: 60vh;
+}
 
+.mobile img {
+  filter: drop-shadow(0px 5px 3px black);
+  animation: drop 1.5s ease;
+}
 .big-circle {
   position: absolute;
   top: 0px;
@@ -1058,16 +1068,22 @@ margin-top: 280px;
   font-size:14px;
   padding: 10px;
 }
-.cover img {
-  width: 60%;
+.cover img{
+  display:none;
 }
+.mobile{
+  display:flex;
+}
+.mobile img {
+opacity: 70%;}
 }
 @media (max-width: 840px) {
   .nav-link{
     font-size:14px;
     padding: 7px;
   }
-  .cover img {
+  .covermobile img {
+    display: flex;
     width: 70%;
     opacity: 50%;
 	}
