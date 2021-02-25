@@ -44,7 +44,9 @@ header {
   font-weight: 400;
   margin: 5px;
 }
-
+#hamnav{
+  display: none;
+}
 nav {
   flex: 2;
 }
@@ -60,47 +62,10 @@ nav {
   color: rgb(70, 66, 66);
 }
 /* this is hamburge */
-.hamburgar {
+#hamburger{
   display: none;
 }
 
-nav .navCenter ul li {
-  margin: 0 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-nav .navCenter ul li::after {
-  content: "";
-  height: 4px;
-  width: 100%;
-  background: linear-gradient(
-    to right,
-    hsla(136, 65%, 51%, 0.938),
-    hsla(192, 70%, 51%, 0.911)
-  );
-  position: absolute;
-  bottom: -110%;
-  transition: 0.3s ease transform;
-  border-radius: 4px;
-  transform: scale(0);
-}
-
-nav .navCenter ul li:hover::after {
-  transform: scale(1);
-}
-
-nav .navCenter ul li a {
-  color: hsl(233, 8%, 62%);
-  text-decoration: none;
-  transition: 0.3s ease color;
-}
-
-nav .navCenter ul li:hover a {
-  color: hsl(233, 26%, 24%);
-}
 /* end of stylling it */
 
 /* end of styling header */
@@ -122,7 +87,6 @@ nav .navCenter ul li:hover a {
   flex: 1;
   margin-left:20px;
 }
-
 .intro-text h1 {
   font-size: 44px;
   font-weight: 500;
@@ -1125,6 +1089,14 @@ display: none;
   display: table;
   justify-content: space-around;
 }
+
+
+.image3 {
+  width: 45px;
+  height: 40px;
+  opacity: 70%;
+}
+
 .contact-left{
   width: 600px;
   align-items: center;
@@ -1134,11 +1106,108 @@ display: none;
   align-items: center;
 }
 .nav-link{
-  font-size:12px;
-  padding: 6px;
+ display: none;
 }
 .box-question{
   width: 600px;
   align-items: center;
+
 }
+#hamnav{
+  display: block;
+  position: fixed;
+}
+#hamnav label { 
+  display: inline-block; 
+  color: white;
+  background: #f7b97a;
+  font-style: normal;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+/* Break down menu items into vertical */
+#hamitems a {
+  display: block;
+  width: 100%;
+  margin-left: 10px;
+  font-size:20px;
+  pointer-events:stroke;
+}
+
+/* Toggle Show/Hide Menu */
+#hamitems { 
+  display: none; 
+}
+#hamnav input:checked ~ #hamitems { 
+  display: block; 
+}
+
+}
+@media (max-width: 640px) {
+.cover img{
+  display: none;
+}
+.logo-container{
+margin-left:150px;
+opacity: 50%;
+}
+.introduction {
+margin-left:150px;
+}
+.intro-text h1 {
+  font-size: 30px;
+}
+.intro-text p {
+  font-size: 18px;
+}
+.section-button {
+  padding: 10px 10px 10px 10px;
+}
+.ourservises {
+  margin-right: 30px;
+}
+.stadistic figure {
+width: 20%;
+}
+.stadistic img {
+max-width: 40%;
+}
+.stadistic-number {
+  font-weight: 200;
+  font-size: 2.25rem;
+  margin-top:5px;
+}
+}
+@media (max-width: 640px) {
+.choosePara {
+  display: none;
+}
+.topText{
+  margin-top:20px;
+}
+.chooseSection header h1 {
+  margin-top: 150px;
+}
+.leftchoose{
+  margin-top :0px;
+}
+.chooseSection{
+  margin-top:-20px;
+}
+.articles__grid{
+  flex-direction: column;
+  align-items: center;
+}
+.box-question{
+  width:80%
+}
+.contact-container{
+  width:80%
+}
+.contact-box{
+  width:400px;
+}
+.contact-left{
+width:400px}
 }
