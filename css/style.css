@@ -1186,6 +1186,7 @@ margin-left:150px;
 }
 .ourservises {
   margin-right: 30px;
+  align-items: center;
 }
 .stadistic figure {
 width: 20%;
@@ -1204,6 +1205,13 @@ max-width: 40%;
 }
 .topText{
   margin-top:20px;
+}
+.container{
+align-items: center;}
+.chooseSection{
+  width:100%;
+  align-items: center;
+  margin-left:230px;
 }
 .chooseSection header h1 {
   margin-top: 150px;
@@ -1230,6 +1238,7 @@ max-width: 40%;
 }
 .contact-left{
 width:400px}
+
 }
 .stadistic figure {
   width: 40%;
