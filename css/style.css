@@ -1253,4 +1253,10 @@ width:400px}
 .contact-right{
   width:100%
 }
+.small-circle{
+  display: none;
+}
+.medium-circle{
+  display: none;
+}
 }
