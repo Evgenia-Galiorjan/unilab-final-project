@@ -54,12 +54,16 @@ nav {
 .nav-links {
   justify-content: space-around;
   font-size: 18px;
-  font-family: "Newsreader 6pt";
+  font-family: 'Arial GEO';
   font-weight: bold;
 }
 
 .nav-link {
   color: rgb(70, 66, 66);
+}
+.nav-link:hover{
+  color: green;
+
 }
 /* this is hamburge */
 #hamburger{
@@ -88,15 +92,18 @@ nav {
   margin-left:20px;
 }
 .intro-text h1 {
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .intro-text p {
   margin-top: 5px;
-  font-size: 22px;
+  font-size: 20px;
   color: #585772;
   margin-left: 0;
+  font-family: 'Arial GEO';
+
 }
 .aboutmobile{
   display: none;
@@ -114,6 +121,8 @@ nav {
   height: 50px;
   cursor: pointer;
   font-size: 16px;
+  text-transform: uppercase;
+
 }
 
 .aboutus:hover {
@@ -129,6 +138,8 @@ nav {
   font-size: 16px;
   color: gray;
   margin: 30px 0px 0px 30px;
+  text-transform: uppercase;
+
 }
 
 .ourservises:hover {
@@ -218,19 +229,21 @@ nav {
 .lessdetails {
   text-align: center;
   font-size: 20px;
-  color: #f9a531;
+  color: #757372;
   margin-top: 10px;
+  font-family: 'Arial GEO';
+
 }
 
 /* servises */
 #container {
   width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  align-items: center;
   border-top: 1px solid rgba(58, 58, 58, 0.03);
   border-bottom: 1px solid rgba(24, 24, 24, 0.03);
-  padding: 50px 0px;
   background-color: #ffffff;
-  background-position: center;
-  background-size: 1000px;
 }
 
 .servise-heading {
@@ -301,6 +314,8 @@ hr {
   max-width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'Arial GEO';
+
 }
 .servise-box a {
   width: 190px;
@@ -430,6 +445,8 @@ hr {
   color: hsl(228, 39%, 23%);
   font-size: 40px;
   margin-bottom: 40px;
+  font-family: 'Arial GEO';
+
 }
 
 .chooseSection {
@@ -439,6 +456,8 @@ hr {
 
 .chooseSection .chooseText {
   max-width: 600px;
+  font-family: 'Arial GEO';
+
 }
 
 .chooseSection .chooseText .topText {
@@ -449,12 +468,16 @@ hr {
 .chooseSection .topText h4 {
   color: hsl(228, 39%, 23%);
   margin-left: 12px;
+  font-family: 'Arial GEO';
+
 }
 
 .chooseText .choosePara {
   padding: 20px;
   padding-bottom: 35px;
   padding-left: 75px;
+  font-family: 'Arial GEO';
+
 }
 /* end choose section */
 /* new section */
@@ -472,7 +495,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 4.5rem;
-  max-width: 70rem;
+  max-width: 80rem;
 }
 
 .stadistic > div {
@@ -482,17 +505,17 @@ hr {
 }
 
 .stadistic figure {
-  width: 35%;
+  width: 60%;
   margin-bottom: -1rem;
   margin-left: 0;
 }
 
 .stadistic img {
-  max-width: 55%;
+  max-width: 70%;
 }
 
 .stadistic-number {
-  font-size: 4.5rem;
+  font-size: 8.5rem;
   font-weight: 700;
   margin: 0;
 }
@@ -523,19 +546,24 @@ hr {
   font-family: calibri;
   font-weight: bold;
   border-bottom: 2px solid #ffffff;
+  font-family: 'Arial GEO';
+
 }
 
 .contact-me button {
   width: 100px;
   height: 40px;
   background-color: #ffffff;
+  opacity: 60%;
   border: none;
   border-radius: 10px;
   font-size: 14px;
   font-weight: bold;
   margin-top: 20px;
 }
-
+.contact-me button:hover{
+opacity: 100%;
+}
 a {
   color: black;
 }
@@ -607,7 +635,8 @@ a {
 .articles__grid {
   display: flex;
   justify-content: center;
-  padding: 0 20px;
+  padding: 0 0px;
+  flex-wrap: wrap;
 }
 
 .articles__section {
@@ -637,6 +666,8 @@ a {
 .articles__description {
   margin: 0 auto;
   width: 95%;
+  font-family: 'Arial GEO';
+
 }
 
 .articles__title,
@@ -649,6 +680,8 @@ a {
   font-weight: 400;
   font-size: 22px;
   transition: 0.2s ease-in-out;
+  font-family: 'Arial GEO';
+
 }
 
 .articles__title:hover {
@@ -665,6 +698,8 @@ a {
 .articles__author {
   margin-top: 25px;
   font-size: 14px;
+  font-family: 'Arial GEO';
+
 }
 
 .articles__paragraph {
@@ -811,6 +846,8 @@ details {
 
 details summary {
   outline: none;
+  font-family: 'Arial GEO';
+
 }
 /* this is for parnters */
 .brands {
@@ -921,9 +958,7 @@ footer .copyRightCont p {
 }
     
 @media (max-width: 960px) {
-	.container {
-        max-width: 800px;
-	}
+	
   .introduction {
 		margin-top: 5vh;
 		text-align: center;
@@ -938,8 +973,13 @@ footer .copyRightCont p {
 		padding: 10px 0px 0px 0px;
 	}
 	.cover img {
-    width: 80%;
-	}
+display: none;	
+}
+.mobile{
+  display:flex;
+}
+.mobile img{
+opacity: 80%;}
 	.small-circle,
 	.medium-circle,
 	.big-circle {
@@ -998,9 +1038,7 @@ opacity: 50%;
 .chooseSection header h1 {
 margin-top: 280px;
 }
-.articles__section:last-child{
-  display: none;
-}
+
 .nav-link{
   font-size:14px;
   padding: 10px;
@@ -1100,8 +1138,11 @@ display: none;
 }
 
 }
-@media (max-width: 660px) {
+@media (max-width: 716px) {
 .cover img{
+  display: none;
+}
+.mobile img{
   display: none;
 }
 .logo-container{
@@ -1168,14 +1209,20 @@ align-items: center;}
   width:80%
 }
 .contact-container{
-  width:80%
+  width:100%
 }
 .contact-box{
-  width:400px;
+  width:100%;
 }
 .contact-left{
 width:400px}
 
+}
+.article_grid{
+  width:100%;
+}
+.articles__section{
+  width:100%;
 }
 .stadistic figure {
   width: 40%;
@@ -1188,3 +1235,22 @@ width:400px}
     font-size: 2.25rem;
     margin-top:5px;
   }
+
+@media (max-width: 516px) {
+.articles__grid{
+  width:100%;
+}
+.chooseSection{
+  display:none;
+}
+.contact-box{
+  width:100%;
+}
+.contact-left{
+  width:100%;
+
+}
+.contact-right{
+  width:100%
+}
+}
