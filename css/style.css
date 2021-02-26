@@ -1321,3 +1321,12 @@ footer ul{
   padding: 0;
 }
 }
+@media (max-width: 395px) {
+
+.contact-left{
+padding: 0;
+}
+.ct-socials{
+  display: none;
+}
+}
