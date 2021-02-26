@@ -1244,45 +1244,38 @@ align-items: center;}
   .introduction {
     margin-left:100px;
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 516px) {
-.chooseSection{
-  display:none;
-}
-.small-circle{
-  display: none;
-}
-.medium-circle{
-  display: none;
-}
-.image3{
-  display: none;
-}
-.introduction{
-  margin-left:80px;
+ .chooseSection header h1{
+ font-size: 30px;
 }
 }
-@media (max-width: 361px) {
+
+@media (max-width: 523px) {
+  .introduction {
+    margin-left:50px;
+ }
+ .logo-container{
+  width:100%;
+}
+.logo-container img{
+  width:100%;
+}
+}
+.icon-container{
+  width:100%;
+}
+.icon-container img{
+  width:100%;
+}
 .logo-container{
-  width:100px;
+  width:100%;
 }
-.image3{
-  display: none;}
+.logo-container img{
+  width:100%;
+}
+.ct-socials{
+  transition: left 0.25s ease-in-out;
+  right:93%;
+  top:11%;
+  opacity: 35%;
 }
 }
