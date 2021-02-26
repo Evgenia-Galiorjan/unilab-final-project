@@ -1297,7 +1297,7 @@ footer ul{
 .box-question{
   box-shadow: none;
 }}
-@media (max-width: 440px) {
+@media (max-width: 460px) {
   .introduction {
     margin-left:50px;
     width:300px;
@@ -1314,6 +1314,10 @@ footer ul{
 }
  @media (max-width: 395px) {
 .container{
-  max-width:300px;
+  max-width:350px;
   width:100%;
-}}
+}
+.contact-right{
+  padding: 0;
+}
+}
