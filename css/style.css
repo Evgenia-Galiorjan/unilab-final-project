@@ -1278,4 +1278,23 @@ align-items: center;}
   top:11%;
   opacity: 35%;
 }
+.footer .infoCont{
+  display: flex;
+  flex:0;
+}
+.leftInfo li{
+  font-size:6px;
+}
+footer ul{
+  font-size:6px;
+}
+.medium-circle{
+  display:none;
+}
+.small-circle{
+  display: none;
+}
+.box-question{
+  box-shadow: none;
+}
 }
