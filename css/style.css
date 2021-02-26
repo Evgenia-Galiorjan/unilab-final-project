@@ -29,6 +29,7 @@ header {
   opacity: 70%;
 }
 
+
 .logo-container,
 .nav-links,
 .icon-container {
@@ -171,6 +172,10 @@ nav {
 .mobile img {
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
+}
+.mobile2 {
+  display: none;
+
 }
 .big-circle {
   position: absolute;
@@ -964,6 +969,7 @@ footer .copyRightCont p {
   color: hsl(233, 100%, 98%);
 }
 
+
 @media (max-width: 960px) {
 	
   .introduction {
@@ -972,13 +978,21 @@ footer .copyRightCont p {
 	}
 	.intro-text h1 {
 		font-size: 30px;
+    margin-top:40px;
+    text-align: center;
+
 	}
 	.intro-text p {
 		font-size: 18px;
 	}
 	.section-button {
-		padding: 10px 0px 0px 0px;
+		padding: 10px 10px 0px 0px;
+    display: flex;
 	}
+  .ourservises{
+margin-left:67px;
+margin-top:0px;
+  }
 	.cover img {
 display: none;	
 }
@@ -1034,9 +1048,10 @@ opacity: 50%;
   background: none;
   box-shadow: none;
 }
-}
 
-@media (max-width: 900px) {
+
+
+@media (max-width: 920px) {
 .para{
   display: none;
 }
@@ -1052,12 +1067,18 @@ margin-top: 280px;
   display:none;
 }
 .mobile{
-  display:flex;
+  display:none;
 }
-.mobile img {
-opacity: 70%;}
+.mobile2 {
+display:grid;
+width:100%;
+}
+.mobile2 img{
+  width:100%;
+  
 }
 
+}
 @media (max-width: 840px) {
   .nav-link{
     font-size:14px;
@@ -1234,4 +1255,5 @@ align-items: center;}
 }
 .image3{
   display: none;}
+}
 }
