@@ -494,7 +494,7 @@ hr {
 .stadistic {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 4.5rem;
+  gap: 2.5rem;
   max-width: 80rem;
 }
 
@@ -505,7 +505,7 @@ hr {
 }
 
 .stadistic figure {
-  width: 60%;
+  width: 40%;
   margin-bottom: -1rem;
   margin-left: 0;
 }
@@ -515,7 +515,7 @@ hr {
 }
 
 .stadistic-number {
-  font-size: 8.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin: 0;
 }
@@ -624,6 +624,7 @@ a {
 
 .articles__container {
   padding: 0 20px;
+  width:100%;
 }
 
 .articles__heading {
@@ -637,13 +638,16 @@ a {
   justify-content: center;
   padding: 0 0px;
   flex-wrap: wrap;
+  width:100%
 }
 
 .articles__section {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin-top: 50px;
-  width: 355px;
+  width:100%;
+   max-width: 355px;
   padding-bottom: 100px;
   padding-right: 20px;
 }
@@ -712,17 +716,19 @@ a {
 
 .contact-container {
   max-width: 1100px;
+  width:100%;
   margin: 0 auto;
   background: white;
 }
 
 .contact-box {
   display: flex;
+  width:100%
 }
-
 .contact-left {
   flex-basis: 60%;
   padding: 40px;
+  width:100%;
 }
 
 .contact-right {
@@ -730,6 +736,7 @@ a {
   padding: 40px 60px;
   background: rgb(255, 255, 255);
   color: rgb(41, 41, 41);
+  width:100%;
 }
 
 .text-contact {
@@ -810,7 +817,7 @@ tr td {
 
 /* this is for questions */
 .box-question {
-  width: 95%;
+  width: 100%;
   margin: 100px auto;
   background: #fff;
   border-radius: 7px;
@@ -956,7 +963,7 @@ footer .copyRightCont a {
 footer .copyRightCont p {
   color: hsl(233, 100%, 98%);
 }
-    
+
 @media (max-width: 960px) {
 	
   .introduction {
@@ -1005,10 +1012,7 @@ opacity: 80%;}
   display: flex;
   justify-content: space-between;
 }
-.articles__container{
-  width:100%;
-  max-width: 800px;
-}
+
 .infoCont{
 font-size: 10px;
 }
@@ -1031,6 +1035,7 @@ opacity: 50%;
   box-shadow: none;
 }
 }
+
 @media (max-width: 900px) {
 .para{
   display: none;
@@ -1052,6 +1057,7 @@ margin-top: 280px;
 .mobile img {
 opacity: 70%;}
 }
+
 @media (max-width: 840px) {
   .nav-link{
     font-size:14px;
@@ -1074,8 +1080,6 @@ display: none;
 .big-circle{
   display: none;
 }
-}
-@media (max-width: 840px) {
 .contact-me{
   display: none;
 }
@@ -1084,24 +1088,15 @@ display: none;
   justify-content: space-around;
 }
 
-
 .image3 {
   width: 45px;
   height: 40px;
   opacity: 70%;
 }
 
-.contact-left{
-  width: 600px;
-  align-items: center;
-}
-.contact-right{
-  width:600px;
-  align-items: center;
-}
 .nav-link{
  display: none;
-}
+} 
 .box-question{
   width: 600px;
   align-items: center;
@@ -1138,6 +1133,7 @@ display: none;
 }
 
 }
+
 @media (max-width: 716px) {
 .cover img{
   display: none;
@@ -1200,30 +1196,6 @@ align-items: center;}
 .chooseSection{
   margin-top:-20px;
 }
-.articles__grid{
-  flex-direction: column;
-  align-items: center;
-  width: 600px;
-}
-.box-question{
-  width:80%
-}
-.contact-container{
-  width:100%
-}
-.contact-box{
-  width:100%;
-}
-.contact-left{
-width:400px}
-
-}
-.article_grid{
-  width:100%;
-}
-.articles__section{
-  width:100%;
-}
 .stadistic figure {
   width: 40%;
   }
@@ -1235,23 +1207,13 @@ width:400px}
     font-size: 2.25rem;
     margin-top:5px;
   }
-
-@media (max-width: 516px) {
-.articles__grid{
-  width:100%;
+  .chooseSection {
+    margin-left:0;
+  }
 }
+@media (max-width: 516px) {
 .chooseSection{
   display:none;
-}
-.contact-box{
-  width:100%;
-}
-.contact-left{
-  width:100%;
-
-}
-.contact-right{
-  width:100%
 }
 .small-circle{
   display: none;
@@ -1259,4 +1221,17 @@ width:400px}
 .medium-circle{
   display: none;
 }
+.image3{
+  display: none;
+}
+.introduction{
+  margin-left:80px;
+}
+}
+@media (max-width: 361px) {
+.logo-container{
+  width:100px;
+}
+.image3{
+  display: none;}
 }
