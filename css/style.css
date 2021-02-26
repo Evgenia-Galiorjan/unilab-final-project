@@ -1297,4 +1297,6 @@ footer ul{
 .box-question{
   box-shadow: none;
 }
+@media (max-width: 430px) {
+
 }
