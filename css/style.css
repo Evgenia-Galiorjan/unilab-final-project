@@ -1297,11 +1297,23 @@ footer ul{
 .box-question{
   box-shadow: none;
 }}
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .introduction {
-    margin-left:0px;
+    margin-left:50px;
+    width:300px;
  }
 .intro-text h1 {
    font-size: 16px;
  }
+ .into-text p{
+   display: none;
+ }
+ .contact-right{
+   width: 200px;
+ }
 }
+ @media (max-width: 395px) {
+.container{
+  max-width:300px;
+  width:100%;
+}}
