@@ -1165,11 +1165,14 @@ margin-left:156px;
 opacity: 50%;
 }
 .introduction {
-   margin-left:150px;
-}
+   margin-left:130px;
+   margin-top: -168px;
+ }
+
 .mobile2 img{
   display: none;
 }
+
 .intro-text h1 {
   font-size: 30px;
 }
@@ -1227,6 +1230,9 @@ align-items: center;}
 .stadistic figure {
   width: 40%;
   }
+  #container{
+    margin-top:-50px;
+  }
   .stadistic img {
   max-width: 60%;
   }
@@ -1246,6 +1252,9 @@ align-items: center;}
  }
  .chooseSection header h1{
  font-size: 30px;
+}
+.logo-container{
+  display: none;
 }
 }
 
