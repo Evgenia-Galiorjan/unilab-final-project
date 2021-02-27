@@ -1356,13 +1356,44 @@ margin-left: 25px;
 }
 .introduction{
   margin-left: 0;
+  width: 100%;
 }
 tr td{
-  padding-right:9px;
+  padding-right:8px;
 }
 }
 @media (max-width: 290px) {
   .contact-left{
     display: none;
   }
+  .introduction{
+    width: 100%;
+  }
+  table{
+    font-size:14px;
+  }
+.section-button{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutus, .ourservises{
+  margin-bottom: 5px;
+    margin-left: 50px;
+    width: 100px;
+    font-size: 10px;
+}}
+@media (max-width: 240px) {
+.contact-container{
+  display: none;
+}
+.aboutus, .ourservises{
+  width: 80px;
+  font-size: 13px;
+}
+.stadistic{
+  display: none;
+}
+.servise-box a, .client-box a{
+  width: 100px;
+}
 }
