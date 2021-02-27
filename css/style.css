@@ -1329,4 +1329,31 @@ padding: 0;
 .ct-socials{
   display: none;
 }
+.introduction {
+margin-left: 30px;
+}
+}
+@media (max-width: 330px) {
+  .introduction {
+margin-left: 25px;
+  }
+.intro-text p{
+  display: none;
+}
+}
+@media (max-width: 395px) {
+.chooseSection{
+  display: none;
+}
+.introduction{
+  margin-left: 0;
+}
+tr td{
+  padding-right:9px;
+}
+}
+@media (max-width: 290px) {
+  .contact-left{
+    display: none;
+  }
 }
