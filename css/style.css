@@ -1320,6 +1320,9 @@ footer ul{
  .contact-right{
    width: 200px;
  }
+ .socialMedia a{
+   display: none;
+ }
 }
  @media (max-width: 395px) {
 .container{
