@@ -1361,6 +1361,9 @@ margin-left: 25px;
   margin-left: 0;
   width: 100%;
 }
+.stadistic{
+  margin-top:-300px;
+}
 tr td{
   padding-right:8px;
 }
